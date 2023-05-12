@@ -2,10 +2,10 @@ import cv2
 import os
 
 # Open the video file
-video = cv2.VideoCapture("C:\\Users\\rjpra\\OneDrive\\Desktop\\New folder\\videos\\output.mp4")
+video = cv2.VideoCapture("D:\VS codes\project1\\video-survillance\\video surveillence\\videos\\output.mp4")
 
 # Create a directory to save the frames
-output_dir = 'C:/Users/rjpra/OneDrive/Desktop/New folder/image/'
+output_dir = 'D:\VS codes\project1\\video-survillance\\video surveillence\\image/'
 os.makedirs(output_dir, exist_ok=True)
 
 # Initialize variables

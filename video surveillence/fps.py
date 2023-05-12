@@ -9,7 +9,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 fps = 30
 
 # Set the output directory
-output_dir = 'C:\\Users\\rjpra\\OneDrive\\Desktop\\New folder\\videos'
+output_dir = 'D:\VS codes\project1\\video-survillance\\video surveillence\\videos'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
